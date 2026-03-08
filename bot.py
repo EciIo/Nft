@@ -106,10 +106,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             InlineKeyboardButton("🎁 Claim Jackpot 🎁", callback_data="claim"),
         ],
         [
-            InlineKeyboardButton("⭐ Top Up Stars ⭐", url=f"https://t.me/{BeliTonBot}?start=topup"),
+            InlineKeyboardButton("⭐ Top Up Stars ⭐", url=f"https://t.me/BeliTonBot?start=topup"),
         ],
         [
-            InlineKeyboardButton("📢 Channel Hadiah 📢", url=f"https://t.me/{ktaal}"),
+            InlineKeyboardButton("📢 Channel Hadiah 📢", url=f"https://t.me/ktaal"),
         ],
     ])
 
